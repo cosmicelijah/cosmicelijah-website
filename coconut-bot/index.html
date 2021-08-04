@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Coconut Bot Page
+    </title>
+    <style>
+        body {
+            background-color: cadetblue;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        .description {
+            text-align: center;
+        }
+
+        .githubButton:hover {
+            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+            transition-duration: 0.4s;
+        }
+
+        .githubImage {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 500px;
+        }
+        .pages {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        function coconutLink() {
+            window.open("https://github.com/cosmicelijah/coconut-discord", "_blank");
+        }
+    </script>
+
+    <p class="pages"><a href="..">Home</a> <a href="../about/">About Me</a></p>
+
+    <h1 class="title">Coconut Discord Bot</h1>
+
+    <hr><br>
+
+    <h3 class="description">This is a bot that I have been developing for the fun of it.<br>It is a Discord bot that
+        pretty much only provides images of Coconut from Nekopara.</h3>
+    </p><br>
+    <div class="githubImage">
+        <button type="button" class="githubButton">
+            <p onmouseup="coconutLink()">
+                <img src="coconutgithub.png" height="400px">
+            </p>
+        </button>
+    </div>
+
+</body>
+
+</html>
